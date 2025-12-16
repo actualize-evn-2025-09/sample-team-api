@@ -14,5 +14,5 @@ Rails.application.routes.draw do
 
   get "/pages" => "pages#index"
 
-  get "/examples" => "examples#index"
+  get "/bears" => "examples#index"
 end
