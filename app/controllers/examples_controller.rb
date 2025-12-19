@@ -1,5 +1,5 @@
 class ExamplesController < ApplicationController
   def index
-    render json: { message: "Hello from the examples controller!!!" }
+    render json: { message: "Go Bears" }
   end
 end

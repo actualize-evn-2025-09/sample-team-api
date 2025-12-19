@@ -13,6 +13,10 @@ Rails.application.routes.draw do
   # root "posts#index"
 
   get "/pages" => "pages#index"
+
+  get "/books" => "books#index"
+  get "/bears" => "examples#index"
+  get "/pics" => "pics#index"
   get "/branchings" => "branchings#index"
   get "/messages" => "messages#index"
   get "/examples" => "examples#index"
